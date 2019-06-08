@@ -1,6 +1,7 @@
 <?php
 class CafeteriaSimulation{
  private $cafeteria;
+	private $till;
 
 /**
  * Constructor
@@ -24,6 +25,18 @@ class CafeteriaSimulation{
  	}
 	// process queue for the till
 	$this->cafeteria->ProcessQueueForTill();
+	  
+	public string getAmountOfMoneyInTill(){
+	 return $amountofmoneyintill
+ } 
+
+ public string getNumberOfArticles(){
+	 return $numberofarticles
+ }
+ 
+ public string getResetTill(){
+	 return $resettill
+ }
 	 
 	// show daily totals (articles and cash in till)
 	echo "\n";
