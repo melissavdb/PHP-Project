@@ -72,8 +72,8 @@ class Cafeteria{
   * and 'empties' the contents of the till.
   */
  public function getResetTill(){
-  resittill = $this->till->resetTill();
-	 return $resetTill
+  resettill = $this->till->getResetTill();
+	 return $resettill
  }
 }
 ?>
