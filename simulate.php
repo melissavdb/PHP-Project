@@ -29,6 +29,9 @@
  $soup->print();
  echo "\n-------------------------------------\n";
 
+ $cafeteriaSim = new cafeteriaSim;
 
+ $cafeteriaSim-> now = time();
+ $cafeteriaSim-> now = strotime('3 days ago');
 
 ?>
