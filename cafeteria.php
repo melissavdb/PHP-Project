@@ -53,15 +53,17 @@ class Cafeteria{
   * This method counts the money in the till
   * @return amount of money in till
   */
- public function amountOfMoneyInTill(){
-  return $this->till->amountOfMoneyInTill();
+ public function getAmountOfMoneyInTill(){
+  amountofmoneyintill = $this->till->getAmountOfMoneyInTill();
+	 return $amountofmoneyintill
  } 
 /**
   * This method returns the number of articles that have passed by.
   * @return the number of articles that have passed by
   */
- public function numberOfArticles(){
-  return $this->till->numberOfArticles();
+ public function getNumberOfArticles(){
+  numberofarticles = $this->till->GetNumberOfArticles();
+	 return $numberofarticles
  }
  
  /**
@@ -69,8 +71,9 @@ class Cafeteria{
   * the number of articles
   * and 'empties' the contents of the till.
   */
- public function resetTill(){
-  $this->till->resetTill();
+ public function getResetTill(){
+  resittill = $this->till->resetTill();
+	 return $resetTill
  }
 }
 ?>
